@@ -9,6 +9,8 @@ if (!session_id()) {
     session_start();
 }
 
+
+
 try {
     $router = new \Core\Router();
 

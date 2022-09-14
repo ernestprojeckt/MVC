@@ -10,4 +10,10 @@ class HomeController extends Controller
     {
         d($id);
     }
+
+    public function test(){
+        dd('test passed');
+    }
+
 }
+
